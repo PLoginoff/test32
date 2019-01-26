@@ -1,0 +1,21 @@
+{
+    "name": "ploginoff/test32",
+    "description": "add two big numbers",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "Pavel Loginov",
+            "email": "ploginoff@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PL\\Big\\": "src/"
+        }
+    }
+}
